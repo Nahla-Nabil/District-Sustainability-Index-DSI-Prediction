@@ -108,3 +108,35 @@ To run the notebook:
 
 ```bash
 jupyter notebook TM271_DSI_Prediction.ipynb
+
+
+---
+
+### ✨ Author
+
+**Nahla Nabil Skaik**  
+Artificial Intelligence Student – Arab Open University, Bahrain  
+**TM271 – Machine Learning & Deep Learning**  
+**Semester:** Fall 2025/2026  
+**Student ID:** 6230202  
+
+---
+
+### 📫 Contact
+
+- 📧 Email: *nahla.nabil.52@gmail.com *  
+- 💼 LinkedIn: https://www.linkedin.com/in/nahla-nabil-876597211/
+- 🐙 GitHub: Nahla-Nabil  
+
+---
+
+### 🔖 Supervisor  
+**Dr. Khalid Mansour**  
+Arab Open University – Bahrain  
+
+---
+
+### 🎓 Academic Note  
+This project was completed as part of the official TM271 coursework and follows academic integrity guidelines.
+
+---
