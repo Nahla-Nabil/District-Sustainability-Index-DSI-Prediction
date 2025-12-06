@@ -112,6 +112,7 @@ jupyter notebook TM271_DSI_Prediction.ipynb
 
 ---
 
+```bash
 ### ✨ Author
 
 **Nahla Nabil Skaik**  
