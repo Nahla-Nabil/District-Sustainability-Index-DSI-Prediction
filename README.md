@@ -1,3 +1,51 @@
+# 🏙️ District Sustainability Index (DSI) Prediction
+
+![Banner](https://img.shields.io/badge/Project-TM271_DSI_Prediction-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![ML](https://img.shields.io/badge/Machine%20Learning-Regression-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+## 📋 Overview
+An end-to-end machine learning system to predict the **District Sustainability Index (DSI)** based on environmental, demographic, and infrastructure indicators. This project was developed as part of the TM271 course under the GCC Sustainability Innovation Lab.
+
+**Key Features:**
+- ✅ Complete EDA with insightful visualizations
+- ✅ Advanced missing value handling (Mean, KNN, Drop)
+- ✅ Feature engineering & PCA dimensionality reduction
+- ✅ Multiple ML models trained & evaluated
+- ✅ Model generalization analysis & learning curves
+- ✅ Best model saved for deployment
+
+---
+
+## 📁 Project Structure
+TM271-DSI-Prediction/
+│
+├── notebooks/
+│ └── TM271_DSI_Prediction.ipynb # Main Jupyter notebook
+│
+├── data/
+│ └── tm271data.csv # Original dataset
+│
+├── models/
+│ └── best_dsi_model.pkl # Saved best model
+│
+├── images/ # Generated visualizations
+│ ├── correlation_heatmap.png
+│ ├── co2_vs_dsi.png
+│ ├── distributions.png
+│ ├── pairplot.png
+│ ├── variance_comparison.png
+│ ├── pca_visualization.png
+│ ├── feature_importance.png
+│ ├── actual_vs_predicted.png
+│ └── residual_plot.png
+│
+├── reports/
+│ └── Project_Report_Arabic.pdf # Comprehensive project report
+│
+├── README.md # This file
+└── requirements.txt # Python dependencies
 
 ---
 
