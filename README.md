@@ -111,9 +111,7 @@ jupyter notebook TM271_DSI_Prediction.ipynb
 
 
 ---
-
-```bash
-### ✨ Author
+## ✨ Author
 
 **Nahla Nabil Skaik**  
 Artificial Intelligence Student – Arab Open University, Bahrain  
@@ -123,7 +121,7 @@ Artificial Intelligence Student – Arab Open University, Bahrain
 
 ---
 
-### 📫 Contact
+## 📫 Contact
 
 - 📧 Email: *nahla.nabil.52@gmail.com *  
 - 💼 LinkedIn: https://www.linkedin.com/in/nahla-nabil-876597211/
@@ -131,13 +129,13 @@ Artificial Intelligence Student – Arab Open University, Bahrain
 
 ---
 
-### 🔖 Supervisor  
+## 🔖 Supervisor  
 **Dr. Khalid Mansour**  
 Arab Open University – Bahrain  
 
 ---
 
-### 🎓 Academic Note  
+## 🎓 Academic Note  
 This project was completed as part of the official TM271 coursework and follows academic integrity guidelines.
 
 ---
