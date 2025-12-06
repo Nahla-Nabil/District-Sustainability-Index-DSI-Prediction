@@ -1,157 +1,132 @@
-# 🏙️ District Sustainability Index (DSI) Prediction
+f"""
+╔══════════════════════════════════════════════════════════════════════════════════════════════╗
+║                     🏆 BEST MODEL: {best_model_name:<50}                    ║
+╠══════════════════════════════════════════════════════════════════════════════════════════════╣
+║                                                                                              ║
+║  📊 PERFORMANCE METRICS:                                                                     ║
+║     • Mean Absolute Error (MAE):        {best_row['MAE']:>6.4f} DSI points                              ║
+║     • Root Mean Squared Error (RMSE):   {best_row['RMSE']:>6.4f} DSI points                              ║
+║     • R² Score (Variance Explained):    {best_row['R² Score']:>6.4f} ({best_row['R² Score']*100:>5.2f}%)                             ║
+║                                                                                              ║
+║  ✅ STRENGTHS:                                                                               ║
+║     • Lowest prediction error among all models tested                                       ║
+║     • Excellent generalization (Train R² = 0.922, Test R² = 0.871)                         ║
+║     • Fast training and prediction time                                                     ║
+║     • Highly interpretable for policymakers                                                 ║
+║                                                                                              ║
+║  📈 BUSINESS IMPACT:                                                                         ║
+║     • Can predict district sustainability with ~87% accuracy                                ║
+║     • Average prediction error of ±2.77 DSI points (out of 100)                            ║
+║     • Suitable for real-time policy decision support                                        ║
+║                                                                                              ║
+║  🎓 RECOMMENDATION:                                                                          ║
+║     Deploy this model for GCC Sustainability Innovation Lab to:                             ║
+║     1. Identify districts requiring urgent environmental interventions                      ║
+║     2. Allocate sustainability resources efficiently                                        ║
+║     3. Monitor progress toward Oman Vision 2040 goals                                       ║
+║                                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════════════════════╝
+"""
 
-![Banner](https://img.shields.io/badge/Project-TM271_DSI_Prediction-blue)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![ML](https://img.shields.io/badge/Machine%20Learning-Regression-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+print(summary_card)
 
-## 📋 Overview
-An end-to-end machine learning system to predict the **District Sustainability Index (DSI)** based on environmental, demographic, and infrastructure indicators. This project was developed as part of the TM271 course under the GCC Sustainability Innovation Lab.
+# Save summary to text file
+with open('model_performance_summary.txt', 'w', encoding='utf-8') as f:
+    f.write(summary_card)
 
-**Key Features:**
-- ✅ Complete EDA with insightful visualizations
-- ✅ Advanced missing value handling (Mean, KNN, Drop)
-- ✅ Feature engineering & PCA dimensionality reduction
-- ✅ Multiple ML models trained & evaluated
-- ✅ Model generalization analysis & learning curves
-- ✅ Best model saved for deployment
+print("\n✅ Performance summary saved to 'model_performance_summary.txt'")
 
----
+# ----------------------------------------------------------------------------
+# إضافة 5: Create Professional README for GitHub (اختياري)
+# ----------------------------------------------------------------------------
+
+readme_content = f"""# District Sustainability Index (DSI) Prediction System 🌿
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-Academic-green.svg)]()
+
+## 📊 Project Overview
+
+This project develops an end-to-end Machine Learning pipeline to predict the **District Sustainability Index (DSI)** — a composite score (0-100) quantifying environmental and social well-being of urban districts.
+
+### 🎯 Key Results
+- **87.1% Accuracy** (R² Score)
+- **±2.77 DSI Points** Average Error
+- **Best Model:** Linear Regression
+
+## 🚀 Features
+
+- ✅ Comprehensive data preprocessing (missing value handling, feature engineering)
+- ✅ 5 Machine Learning algorithms compared
+- ✅ PCA dimensionality reduction for visualization
+- ✅ Overfitting detection and prevention
+- ✅ Professional visualizations and reporting
 
 ## 📁 Project Structure
+
+```
 TM271-DSI-Prediction/
 │
 ├── notebooks/
-│ └── TM271_DSI_Prediction.ipynb # Main Jupyter notebook
+│   └── TM271_DSI_Prediction.ipynb          # Main Jupyter Notebook
 │
 ├── data/
-│ └── tm271data.csv # Original dataset
+│   └── tm271data.csv                        # Dataset
 │
 ├── models/
-│ └── best_dsi_model.pkl # Saved best model
+│   └── best_dsi_model.pkl                   # Saved model
 │
-├── images/ # Generated visualizations
-│ ├── correlation_heatmap.png
-│ ├── co2_vs_dsi.png
-│ ├── distributions.png
-│ ├── pairplot.png
-│ ├── variance_comparison.png
-│ ├── pca_visualization.png
-│ ├── feature_importance.png
-│ ├── actual_vs_predicted.png
-│ └── residual_plot.png
+├── visualizations/
+│   ├── correlation_heatmap.png
+│   ├── pca_visualization.png
+│   ├── actual_vs_predicted.png
+│   └── ...
 │
 ├── reports/
-│ └── Project_Report_Arabic.pdf # Comprehensive project report
+│   └── TM271_Final_Report.pdf               # Detailed report
 │
-├── README.md # This file
-└── requirements.txt # Python dependencies
+└── README.md                                 # This file
+```
+
+## 🛠️ Technologies Used
+
+- **Python 3.8+**
+- **Pandas** - Data manipulation
+- **NumPy** - Numerical computing
+- **Scikit-learn** - Machine Learning
+- **Matplotlib & Seaborn** - Visualization
+- **Jupyter Notebook** - Development environment
+
+## 📈 Model Performance
+
+| Model | MAE | RMSE | R² Score |
+|-------|-----|------|----------|
+| **Linear Regression** ⭐ | **2.77** | **4.63** | **0.871** |
+| Random Forest | 3.46 | 4.87 | 0.857 |
+| Gradient Boosting | 3.09 | 4.73 | 0.866 |
+| SVR | 3.78 | 5.83 | 0.796 |
+| Decision Tree | 5.19 | 6.90 | 0.714 |
+
+## 🔍 Key Insights
+
+1. **CO₂ emissions** and **energy consumption** are strongest predictors of sustainability
+2. **Green space** significantly improves district DSI scores
+3. **Traffic congestion** negatively impacts sustainability
+4. Linear relationships dominate the dataset, making simple models highly effective
+
+## 👤 Author
+
+**Nahla Nabil Skaik**  
+Student ID: 6230202  
+Course: TM271 - Machine Learning and Deep Learning  
+Supervisor: Dr. Khalid Mansour
+
+## 📝 License
+
+This project is submitted as part of academic coursework. All rights reserved.
 
 ---
 
-## 📊 Dataset Description
-
-**File:** `tm271data.csv`  
-**Size:** 57.29 KB | **Rows:** 1000 | **Columns:** 9
-
-### Features:
-| Feature | Description | Type |
-|---------|-------------|------|
-| `district_id` | District identifier | Object |
-| `district_name` | District name | Object |
-| `CO2_emission_kilotons` | CO₂ emissions in kilotons | Numeric |
-| `Average_energy_consumption_kWh_per_household` | Average household energy use | Numeric |
-| `Green_area_per_capita_m2` | Green space per capita in m² | Numeric |
-| `Waste_recycling_rate_pct` | Waste recycling rate (%) | Numeric |
-| `Population_density_people_per_km2` | Population density | Numeric |
-| `Traffic_index_0_100` | Traffic congestion index (0-100) | Numeric |
-| `DSI_target_0_100` | **Target:** District Sustainability Index (0-100) | Numeric |
-
----
-
-## 🔬 Methodology
-
-### 1. **Exploratory Data Analysis (EDA)**
-- Missing value analysis (5.4% missing overall)
-- Correlation heatmap & pairplots
-- Distribution histograms for all features
-- **Key Findings:**
-  - Strong correlation between CO₂ and energy consumption (0.73)
-  - Green area positively impacts DSI (0.76 correlation)
-  - Traffic congestion negatively affects sustainability (-0.81 correlation)
-
-### 2. **Data Preprocessing**
-- Removed non-predictive columns (`district_id`, `district_name`)
-- **Missing value handling:** Mean imputation (preserves all records)
-- **Feature engineering:**
-  - `Energy_per_capita` = Energy consumption / Population density
-  - `Green_Index` = Green area / Population density
-- **Scaling:** Standardization (mean=0, std=1)
-- **Dimensionality Reduction:** PCA (68.32% variance retained with 2 components)
-
-### 3. **Modeling**
-**Models Implemented:**
-1. Linear Regression
-2. Decision Tree Regressor
-3. Support Vector Regressor (SVR)
-4. Random Forest Regressor
-5. Gradient Boosting Regressor
-
-**Evaluation Metrics:**
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- R² Score (Coefficient of Determination)
-
-### 4. **Results**
-| Model | MAE | RMSE | R² Score | Rank |
-|-------|-----|------|----------|------|
-| **Linear Regression** | **2.7660** | **4.6315** | **0.8712** | 🥇 **Best** |
-| Gradient Boosting | 3.0920 | 4.7271 | 0.8658 | 🥈 |
-| Random Forest | 3.4556 | 4.8737 | 0.8574 | 🥉 |
-| SVR | 3.7770 | 5.8297 | 0.7959 | 4 |
-| Decision Tree | 5.1917 | 6.9041 | 0.7138 | 5 |
-
----
-
-## 🎯 Key Insights
-
-### 🏆 **Best Performing Model: Linear Regression**
-- **MAE:** 2.7660 → Average prediction error < 3 DSI points
-- **R²:** 0.8712 → 87% variance explained
-- **Generalization:** Excellent (Train-Test gap: 0.0504)
-
-### 🌿 **Sustainability Drivers Identified:**
-1. **Energy Efficiency** directly reduces carbon footprint
-2. **Green Spaces** significantly improve sustainability scores
-3. **Traffic Management** is crucial for urban sustainability
-4. **Population Density** requires balanced resource allocation
-
----
-
-## 📈 Visualizations
-
-| Visualization | Purpose |
-|---------------|---------|
-| ![Correlation Heatmap](images/correlation_heatmap.png) | Relationships between features |
-| ![CO2 vs DSI](images/co2_vs_dsi.png) | Negative impact of emissions on sustainability |
-| ![PCA](images/pca_visualization.png) | Data structure in reduced dimensions |
-| ![Actual vs Predicted](images/actual_vs_predicted.png) | Model prediction accuracy |
-
-*(All visualizations are available in the `images/` folder)*
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.8+
-- Jupyter Notebook/Lab
-
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/Nahla-Nabil/TM271-DSI-Prediction.git
-cd TM271-DSI-Prediction
-
-# Install dependencies
-pip install -r requirements.txt
+⭐ If you found this project useful, please star this repository!
+"""
