@@ -47,8 +47,6 @@ TM271-DSI-Prediction/
 ├── README.md # This file
 └── requirements.txt # Python dependencies
 
-text
-
 ---
 
 ## 📊 Dataset Description
@@ -141,18 +139,16 @@ text
 
 *(All visualizations are available in the `images/` folder)*
 
----
+🚀 Getting Started
+Prerequisites
+Python 3.8+
 
-## 🚀 Getting Started
+Jupyter Notebook/Lab
 
-### Prerequisites
-- Python 3.8+
-- Jupyter Notebook/Lab
-
-### Installation
-```bash
+Installation
+bash
 # Clone repository
-git clone https://github.com/yourusername/TM271-DSI-Prediction.git
+git clone https://github.com/Nahla-Nabil/TM271-DSI-Prediction.git
 cd TM271-DSI-Prediction
 
 # Install dependencies
@@ -233,7 +229,7 @@ REST API using FastAPI
 Real-time monitoring dashboard
 
 👥 Contributors
-Nahla Nabil Skaik (@nahla-skaik) - Main Developer
+Nahla Nabil Skaik (@Nahla-Nabil) - Main Developer
 
 Dr. Khalid Mansour - Project Supervisor
 
@@ -253,12 +249,15 @@ Open-source ML community for invaluable resources
 📞 Contact
 For questions or collaboration:
 
-Email: your.nahla.nabil.52@gmail.com 
+Email: nahla.nabil.52@gmail.com
 
 LinkedIn: Nahla Nabil
 
 GitHub: @Nahla-Nabil
+
 ⭐ Show Your Support
 If you find this project useful, please give it a star! ⭐
 
-Last Updated: December 
+Last Updated: December 2024
+
+---
