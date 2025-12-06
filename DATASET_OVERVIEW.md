@@ -116,8 +116,3 @@ The project covers the complete ML lifecycle:
 Everything is implemented inside a reproducible **Jupyter Notebook**, making it suitable for academic submission and real-world expansion.
 
 ---
-
-## 📝 8. Suggested Citation
-
-If referencing this project academically, use:
-
