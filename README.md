@@ -109,6 +109,7 @@ To run the notebook:
 ```bash
 jupyter notebook TM271_DSI_Prediction.ipynb
 
+---
 
 ## Author ✨
 
