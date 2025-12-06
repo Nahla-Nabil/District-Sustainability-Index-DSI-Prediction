@@ -1,51 +1,3 @@
-# 🏙️ District Sustainability Index (DSI) Prediction
-
-![Banner](https://img.shields.io/badge/Project-TM271_DSI_Prediction-blue)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![ML](https://img.shields.io/badge/Machine%20Learning-Regression-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
-## 📋 Overview
-An end-to-end machine learning system to predict the **District Sustainability Index (DSI)** based on environmental, demographic, and infrastructure indicators. This project was developed as part of the TM271 course under the GCC Sustainability Innovation Lab.
-
-**Key Features:**
-- ✅ Complete EDA with insightful visualizations
-- ✅ Advanced missing value handling (Mean, KNN, Drop)
-- ✅ Feature engineering & PCA dimensionality reduction
-- ✅ Multiple ML models trained & evaluated
-- ✅ Model generalization analysis & learning curves
-- ✅ Best model saved for deployment
-
----
-
-## 📁 Project Structure
-TM271-DSI-Prediction/
-│
-├── notebooks/
-│ └── TM271_DSI_Prediction.ipynb # Main Jupyter notebook
-│
-├── data/
-│ └── tm271data.csv # Original dataset
-│
-├── models/
-│ └── best_dsi_model.pkl # Saved best model
-│
-├── images/ # Generated visualizations
-│ ├── correlation_heatmap.png
-│ ├── co2_vs_dsi.png
-│ ├── distributions.png
-│ ├── pairplot.png
-│ ├── variance_comparison.png
-│ ├── pca_visualization.png
-│ ├── feature_importance.png
-│ ├── actual_vs_predicted.png
-│ └── residual_plot.png
-│
-├── reports/
-│ └── Project_Report_Arabic.pdf # Comprehensive project report
-│
-├── README.md # This file
-└── requirements.txt # Python dependencies
 
 ---
 
@@ -139,125 +91,19 @@ TM271-DSI-Prediction/
 
 *(All visualizations are available in the `images/` folder)*
 
-🚀 Getting Started
-Prerequisites
-Python 3.8+
+---
 
-Jupyter Notebook/Lab
+## 🚀 Getting Started
 
-Installation
-bash
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook/Lab
+
+### Installation
+```bash
 # Clone repository
 git clone https://github.com/Nahla-Nabil/TM271-DSI-Prediction.git
 cd TM271-DSI-Prediction
 
 # Install dependencies
 pip install -r requirements.txt
-Run the Project
-Open notebooks/TM271_DSI_Prediction.ipynb in Jupyter
-
-Run all cells sequentially
-
-Check generated visualizations in images/ folder
-
-Requirements
-txt
-pandas==2.0.0
-numpy==1.24.0
-matplotlib==3.7.0
-seaborn==0.12.0
-scikit-learn==1.3.0
-jupyter==1.0.0
-joblib==1.2.0
-📝 Usage Example
-python
-import joblib
-import pandas as pd
-
-# Load trained model
-model = joblib.load('models/best_dsi_model.pkl')
-
-# Prepare new data (example)
-new_data = pd.DataFrame({
-    'CO2_emission_kilotons': [500.0],
-    'Average_energy_consumption_kWh_per_household': [8000.0],
-    'Green_area_per_capita_m2': [30.0],
-    'Waste_recycling_rate_pct': [40.0],
-    'Population_density_people_per_km2': [600.0],
-    'Traffic_index_0_100': [50.0],
-    'Energy_per_capita': [13.33],
-    'Green_Index': [0.05]
-})
-
-# Predict DSI score
-predicted_dsi = model.predict(new_data)
-print(f"Predicted DSI Score: {predicted_dsi[0]:.2f}")
-📄 Project Report
-A comprehensive Arabic project report is available in reports/Project_Report_Arabic.pdf including:
-
-Complete methodology
-
-Detailed results analysis
-
-Future recommendations
-
-Academic context
-
-🔮 Future Improvements
-Model Enhancement
-
-Implement XGBoost/LightGBM
-
-Hyperparameter tuning with Optuna
-
-Ensemble methods stacking
-
-Feature Expansion
-
-Air quality indicators
-
-Public transportation metrics
-
-Renewable energy usage data
-
-Deployment
-
-Web application with Streamlit
-
-REST API using FastAPI
-
-Real-time monitoring dashboard
-
-👥 Contributors
-Nahla Nabil Skaik (@Nahla-Nabil) - Main Developer
-
-Dr. Khalid Mansour - Project Supervisor
-
-Institution: GCC Sustainability Innovation Lab
-Course: TM271 - Machine Learning Project
-
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🙏 Acknowledgments
-GCC Sustainability Innovation Lab for dataset provision
-
-Dr. Khalid Mansour for academic supervision
-
-Open-source ML community for invaluable resources
-
-📞 Contact
-For questions or collaboration:
-
-Email: nahla.nabil.52@gmail.com
-
-LinkedIn: Nahla Nabil
-
-GitHub: @Nahla-Nabil
-
-⭐ Show Your Support
-If you find this project useful, please give it a star! ⭐
-
-Last Updated: December 2024
-
----
