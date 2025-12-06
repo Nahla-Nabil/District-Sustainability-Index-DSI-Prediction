@@ -102,15 +102,6 @@ Linear Regression offered the best balance of accuracy, stability, and simplicit
 
 ---
 
-## ▶️ Usage
-
-To run the notebook:
-
-```bash
-jupyter notebook TM271_DSI_Prediction.ipynb
-
----
-
 ## Author ✨
 
 <p align="right">
