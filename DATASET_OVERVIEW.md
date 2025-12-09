@@ -4,7 +4,7 @@
 
 ---
 
-## 🏙️ 1. Background & Motivation
+## 1. Background & Motivation
 
 Around the world, governments are increasingly adopting **Machine Learning (ML)** to support sustainable urban development.  
 The complexity of modern cities—rapid urbanization, rising CO₂ levels, traffic congestion, and shrinking green spaces—has made traditional planning approaches insufficient.
@@ -18,7 +18,7 @@ Predictive analytics now helps policymakers:
 
 ---
 
-## 🇬🇨 2. GCC Context: Why This Project Matters
+##  2. GCC Context: Why This Project Matters
 
 The **GCC Sustainability Innovation Lab (GCC-SIL)** was established under **Oman Vision 2040** to explore how emerging technologies—especially AI—can strengthen sustainability, climate resilience, and urban well-being across GCC nations.
 
@@ -35,7 +35,7 @@ This is where the **District Sustainability Index (DSI)** model comes in.
 
 ---
 
-## 🎯 3. Project Objective
+##  3. Project Objective
 
 The main objective is to build a **complete end-to-end Machine Learning pipeline** that can:
 
@@ -49,7 +49,7 @@ The final model supports urban authorities in identifying high-risk districts th
 
 ---
 
-## 📊 4. Dataset Description
+##  4. Dataset Description
 
 The predictive system uses district-level data containing key sustainability indicators such as:
 
@@ -67,7 +67,7 @@ You may use external datasets such as **Global Urban Indicators**, or simulate y
 
 ---
 
-## 🧑‍🔬 5. Role of the Data Scientist (Your Role)
+##  5. Role of the Data Scientist 
 
 As a data scientist at **GCC-SIL**, your responsibilities include:
 
@@ -87,7 +87,7 @@ Your predictive model is expected to:
 
 ---
 
-## 🚀 6. Importance of the DSI Prediction Model
+##  6. Importance of the DSI Prediction Model
 
 A reliable sustainability prediction model helps GCC planners:
 
@@ -101,7 +101,7 @@ This system forms a foundation for a future **smart-city sustainability dashboar
 
 ---
 
-## 🧭 7. Scope of This Project
+## 7. Scope of This Project
 
 The project covers the complete ML lifecycle:
 
