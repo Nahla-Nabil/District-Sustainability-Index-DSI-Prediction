@@ -113,19 +113,14 @@ Artificial Intelligence Student – Arab Open University, Bahrain
 
 ### 📫 Contact
 
-- 📧 Email: *nahla.skaik@example.com*  
-- 💼 LinkedIn: https://linkedin.com/in/nahla-skaik  
-- 🐙 GitHub: https://github.com/nahla-skaik  
+- 📧 Email: [nahla.nabil.52@gmail.com](nahla.nabil.52@gmail.com)
+- 💼 LinkedIn: [www.linkedin.com/in/nahla-nabil-876597211](www.linkedin.com/in/nahla-nabil-876597211)
+- 🐙 GitHub: [https://github.com/Nahla-Nabil](https://github.com/Nahla-Nabil) 
 
 ---
 
 ### 🔖 Supervisor  
 **Dr. Khalid Mansour**  
 Arab Open University – Bahrain  
-
----
-
-### 🎓 Academic Note  
-This project was completed as part of the official TM271 coursework and follows academic integrity guidelines.
 
 ---
