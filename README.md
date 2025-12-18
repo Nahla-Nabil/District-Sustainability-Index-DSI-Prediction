@@ -20,10 +20,6 @@ The workflow covers:
 The notebook was developed as part of **TM271 – Machine Learning & Deep Learning** at the **Arab Open University**.
 
 ---
-For a full problem introduction and dataset description, see  
-🎯 [Project Introduction](PROJECT_INTRODUCTION.md)
-
----
 ## 🧠 Key Results
 
 | Metric | Value |
